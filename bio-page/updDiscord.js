@@ -2,7 +2,7 @@
 
 // Checks my Discord status every 3 seconds
 function fetchDiscordStatus() {
-  fetch('https://api.lanyard.rest/v1/users/USERID HERE')
+  fetch('https://api.lanyard.rest/v1/users/622207531946025')
     .then(response => response.json())
     .then(data => {
       // Updates the status display
