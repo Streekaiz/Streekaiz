@@ -1,0 +1,18 @@
+// YOU MUST BE IN THE DISCORD https://discord.gg/PHNVcmfDkB 
+
+// Checks my Discord status every 3 seconds
+function fetchDiscordStatus() {
+  fetch('https://api.lanyard.rest/v1/users/USERID HERE')
+    .then(response => response.json())
+    .then(data => {
+      // Updates the status display
+      if (data.success) {
+        // Shows profile picture
+        // Changes the status color (green/yellow/red)
+        // Displays what you are currently doing
+      }
+    })
+}
+
+// Runs the check every 3 seconds
+setInterval(fetchDiscordStatus, 3000);
